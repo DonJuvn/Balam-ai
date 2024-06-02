@@ -350,6 +350,29 @@ body {
    color: #1d4784;
 }
 
+@media screen and (max-width:768px) {
+  .equipment{
+    flex-wrap: wrap;
+  }
+  .facility{
+    width: 42%;
+  }
+  .facility .img{
+    height: 120px;
+  }
+  .facility img:hover{
+    transform: scale(1);
+  }
+  .facility h5{
+    font-size: 20px;
+    margin: 22px 0 10px;
+  }
+  .facility p{
+    font-size: 12px;
+    height: 120px;
+  }
+}
+
 /* faq */
 #faq {
    padding-top: 2%;
