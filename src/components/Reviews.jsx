@@ -17,7 +17,7 @@ const Carousel = ({ slides }) => {
    return (
       <div id="reviews">
          <div className="container">
-            <h3>Отзывы родителей</h3>
+            <h3 id="title">Отзывы родителей</h3>
             <div className="carousel">
                <button id="arrows" onClick={prevSlide}>
                   <img

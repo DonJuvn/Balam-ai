@@ -10,7 +10,7 @@ const About = () => {
                </h5>
             </div>
             <div className="title">
-               <h1>О фонде</h1>
+               <h3 id="title">О фонде</h3>
             </div>
             <div className="about">
                <div className="text">

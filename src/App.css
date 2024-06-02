@@ -58,12 +58,21 @@ body {
    display: flex;
    flex-direction: row;
    justify-content: space-around;
+   align-items: center;
 }
 .nav a {
    color: white;
    text-decoration: none;
 }
-
+#donation {
+   background-color: #1d4784;
+   padding: 8px 16px;
+   border-radius: 10px;
+   transition: 0.2s;
+}
+#donation:hover {
+   transform: scale(1.05);
+}
 /* ABout */
 #about {
    padding-top: 2vh;
@@ -85,11 +94,11 @@ body {
    width: 100%;
    margin: 0 auto;
 }
-.title h1 {
+/* .title h1 {
    text-align: center;
    color: #2e3b29;
    font-weight: 600;
-}
+} */
 .about .text {
    width: 50%;
    padding: 1% 4%;
@@ -119,7 +128,7 @@ body {
    padding: 2% 0;
    background: linear-gradient(to bottom, #1d478450, #1d478470);
 }
-#documents h3 {
+#title {
    font-size: 32px;
    font-weight: 600;
    width: 100%;
@@ -267,4 +276,18 @@ body {
 }
 .social img:hover {
    transform: scale(1.1);
+}
+
+/* correction */
+.correction p {
+   margin-bottom: 30px;
+}
+#with {
+  padding-bottom: 80px;
+  margin: 0;
+   border-bottom: #1d4784 2px solid;
+}
+.type {
+   padding: 50px 0;
+   border-bottom: #1d4784 2px solid;
 }
