@@ -6,6 +6,7 @@ import Collage from "./components/Collage";
 import GoogleMap from "./components/Addresses";
 import Documents from "./components/Documents";
 import Carousel from "./components/Reviews";
+import Footer from "./components/Footer";
 
 function App() {
    const center = { lat: 51.5074, lng: -0.1278 }; // London coordinates
@@ -40,6 +41,7 @@ function App() {
          <Collage />
          <Documents />
          <Carousel slides={slides} />
+         <Footer />
          {/* <GoogleMap center={center} zoom={zoom} locations={addresses} /> */}
       </>
    );

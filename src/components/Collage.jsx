@@ -1,5 +1,4 @@
-import React from "react";
-const images = [
+import React from "react";const images = [
    "img/collage1.jpg",
    "img/collage2.jpg",
    "img/collage3.jpg",
@@ -17,12 +16,25 @@ const Collage = () => {
          <div className="container">
             <h4>
                С целью увеличения охвата детей, а также облегчения подвоза
-               родителям в центры открыты в 4-х районах города. <br />В данное время
-               работает 5центров «Балам-ай», услуги оказываются по адресам: <br />
-               <span>М.Жумабаева19/4, <br /></span>
-               <span>Алпамыс 10, <br /></span>
-               <span>А.Токпанова 60, <br /></span>
-               <span>проспект Сарыарка 48/2, Бектурова 7.<br /></span>
+               родителям в центры открыты в 4-х районах города. <br />В данное
+               время работает 5центров «Балам-ай», услуги оказываются по
+               адресам: <br />
+               <span>
+                  М.Жумабаева19/4, <br />
+               </span>
+               <span>
+                  Алпамыс 10, <br />
+               </span>
+               <span>
+                  А.Токпанова 60, <br />
+               </span>
+               <span>
+                  проспект Сарыарка 48/2, <br />
+               </span>
+               <span>
+                  Бектурова 7.
+                  <br />
+               </span>
             </h4>
          </div>
          <div className="collage-container">

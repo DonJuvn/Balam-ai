@@ -167,8 +167,9 @@ body {
    color: #fff;
 }
 .document img {
-   width: 50%;
+   width: 40%;
    margin: 0 auto;
+   padding: 50px 0;
 }
 
 /* Reviews */
@@ -196,15 +197,15 @@ body {
    cursor: pointer;
    transition: 0.2s;
 }
-#arrows:hover{
-  transform: scale(1.05);
+#arrows:hover {
+   transform: scale(1.05);
 }
 #arrows img {
    width: 100%;
 }
-.slide{
-  width: 40%;
-  text-align: center;
+.slide {
+   width: 40%;
+   text-align: center;
 }
 
 /* Collage */
@@ -242,4 +243,28 @@ body {
 }
 .collage-item img:hover {
    transform: scale(1.02);
+}
+
+/* footer */
+#footer {
+   padding: 50px 0;
+}
+.footer {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+.social {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   gap: 12px;
+}
+.social img {
+   width: 36px;
+   transition: 0.2s;
+}
+.social img:hover {
+   transform: scale(1.1);
 }
