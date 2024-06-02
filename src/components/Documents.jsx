@@ -3,6 +3,7 @@ const Documents = () => {
    return (
       <div id="documents">
          <div className="container">
+            <h3>Документы</h3>
             <div className="documents">
                <div className="document">
                   <img
