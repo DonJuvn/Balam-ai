@@ -1,0 +1,151 @@
+.App {
+   text-align: center;
+}
+
+body {
+   font-family: "Mont", sans-serif;
+}
+
+.App-logo {
+   height: 40vmin;
+   pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+   .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+   }
+}
+
+.App-header {
+   background-color: #282c34;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-size: calc(10px + 2vmin);
+   color: white;
+}
+
+.App-link {
+   color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+   from {
+      transform: rotate(0deg);
+   }
+   to {
+      transform: rotate(360deg);
+   }
+}
+
+.container {
+   width: 90%;
+   min-width: 1367px;
+   margin: 0 auto;
+}
+
+/* menu */
+#menu {
+   background-color: #8cc63f;
+}
+.nav {
+   width: 50%;
+   margin: 0 auto;
+   padding: 15px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+.nav a {
+   color: white;
+   text-decoration: none;
+}
+
+/* ABout */
+#about {
+   padding-top: 2vh;
+}
+.main h5 {
+   font-weight: 600;
+   text-align: center;
+}
+.about {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   /* height: 60vh; */
+}
+.title {
+   width: 100%;
+   margin: 0 auto;
+}
+.title h1 {
+   text-align: center;
+   color: #2e3b29;
+   font-weight: 600;
+}
+.about .text {
+   width: 50%;
+   padding: 1% 4%;
+   align-items: center;
+}
+.about .text h4 {
+   font-weight: 300;
+   color: #2e3b29;
+}
+.about .text span {
+   font-weight: 600;
+}
+.about .img {
+   padding: 0 15px;
+   max-width: 50%;
+   display: flex;
+   align-items: center;
+   /* height: 100%; */
+}
+.about .img img {
+   width: 100%;
+   border-radius: 15px;
+}
+
+/* Collage */
+#collage{
+  margin-top: 5%;
+}
+#collage h4{
+  font-weight: 600;
+  text-align: center;
+}
+#collage h4 span{
+  font-weight: 300;
+}
+.collage-container {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+   justify-content: center;
+   padding: 20px;
+   background: linear-gradient(to bottom, #fff, #1d478450);
+}
+
+.collage-item {
+   flex: 1 1 calc(33.333% - 20px);
+   box-sizing: border-box;
+}
+
+.collage-item img {
+   width: 100%;
+   height: auto;
+   display: block;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   transition: 0.3s;
+}
+.collage-item img:hover {
+   transform: scale(1.02);
+}
