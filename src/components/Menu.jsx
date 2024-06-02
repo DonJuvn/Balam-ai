@@ -7,8 +7,7 @@ const Menu = () => {
                <a href="/">О нас</a>
                <a href="/correction">Коррекция</a>
                <a href="/equipment">Оборудование</a>
-               <a href="about">Документы</a>
-               <a href="about">Отзывы</a>
+               <a href="/faq">FAQ</a>
                <a id="donation" href="#">
                   Пожертвовать
                </a>

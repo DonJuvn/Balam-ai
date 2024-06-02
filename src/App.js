@@ -15,6 +15,7 @@ import Carousel from "./components/Reviews";
 import Footer from "./components/Footer";
 import Correction from "./components/Correction";
 import Equipment from "./components/Equipment";
+import FAQ from "./components/FAQ";
 
 function App() {
    //  const center = { lat: 51.5074, lng: -0.1278 }; // London coordinates
@@ -36,6 +37,7 @@ function App() {
                <Route path="/" exact element={<Main />} />
                <Route path="/correction" element={<CorrectionPage />} />
                <Route path="/equipment" element={<EquipmentPage />} />
+               <Route path="/FAQ" element={<FAQPage />} />
             </Routes>
             <Footer />
          </div>
@@ -80,6 +82,13 @@ const EquipmentPage = () => {
    return (
       <>
          <Equipment />
+      </>
+   );
+};
+const FAQPage = () => {
+   return (
+      <>
+         <FAQ />
       </>
    );
 };

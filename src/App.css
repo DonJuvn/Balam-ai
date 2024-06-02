@@ -1,49 +1,8 @@
-.App {
-   text-align: center;
-}
-
 body {
    font-family: "Mont", sans-serif;
 }
-
-.App-logo {
-   height: 40vmin;
-   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-   .App-logo {
-      animation: App-logo-spin infinite 20s linear;
-   }
-}
-
-.App-header {
-   background-color: #282c34;
-   min-height: 100vh;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   font-size: calc(10px + 2vmin);
-   color: white;
-}
-
-.App-link {
-   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-   from {
-      transform: rotate(0deg);
-   }
-   to {
-      transform: rotate(360deg);
-   }
-}
-
 .container {
    width: 90%;
-   min-width: 1367px;
    margin: 0 auto;
 }
 
@@ -73,6 +32,11 @@ body {
 #donation:hover {
    transform: scale(1.05);
 }
+@media screen and (max-width: 768px) {
+   .nav {
+      width: 100%;
+   }
+}
 /* ABout */
 #about {
    padding-top: 2vh;
@@ -94,11 +58,6 @@ body {
    width: 100%;
    margin: 0 auto;
 }
-/* .title h1 {
-   text-align: center;
-   color: #2e3b29;
-   font-weight: 600;
-} */
 .about .text {
    width: 50%;
    padding: 1% 4%;
@@ -123,10 +82,34 @@ body {
    border-radius: 15px;
 }
 
+@media screen and (max-width: 768px) {
+   .main h5 {
+      font-size: 12px;
+   }
+   #about {
+      padding-top: 1vh;
+   }
+   #about h3 {
+      margin: 0;
+   }
+   .about {
+      flex-direction: column;
+   }
+   .about .text {
+      width: 100%;
+   }
+   .text h4 {
+      font-size: 14px;
+   }
+   .about .img {
+      width: 100%;
+      max-width: 100%;
+   }
+}
+
 /* Documents */
 #documents {
    padding: 2% 0;
-   background: linear-gradient(to bottom, #1d478450, #1d478470);
 }
 #title {
    font-size: 32px;
@@ -184,7 +167,6 @@ body {
 /* Reviews */
 #reviews {
    padding-top: 2%;
-   background: linear-gradient(to bottom, #1d478470, #1d478450);
 }
 #reviews h3 {
    font-size: 32px;
@@ -220,7 +202,7 @@ body {
 /* Collage */
 #collage {
    padding-top: 5%;
-   background: linear-gradient(to bottom, #1d478414, #1d478450);
+   background: linear-gradient(to bottom, #1d478414, #1d4784, #fff);
 }
 #collage h4 {
    font-weight: 600;
@@ -337,4 +319,22 @@ body {
 .facility a {
    text-decoration: none;
    color: #1d4784;
+}
+
+/* faq */
+#faq {
+   padding-top: 2%;
+}
+.faq h3 {
+   font-size: 22px;
+   font-weight: 700;
+   text-align: left;
+}
+.faq h5 {
+   font-size: 18px;
+   font-weight: 500;
+   text-align: right;
+   margin-bottom: 70px;
+   border-bottom: #1d4784 1px solid;
+   padding-bottom: 20px;
 }
