@@ -5,8 +5,8 @@ const Menu = () => {
          <div className="container">
             <div className="nav">
                <a href="/">О нас</a>
-               <a href="correction">Коррекция</a>
-               <a href="about">Центры</a>
+               <a href="/correction">Коррекция</a>
+               <a href="/equipment">Оборудование</a>
                <a href="about">Документы</a>
                <a href="about">Отзывы</a>
                <a id="donation" href="#">
