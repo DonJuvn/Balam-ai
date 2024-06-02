@@ -4,6 +4,7 @@ import Menu from "./components/Menu";
 import About from "./components/About";
 import Collage from "./components/Collage";
 import GoogleMap from "./components/Addresses";
+import Documents from "./components/Documents";
 
 function App() {
    const center = { lat: 51.5074, lng: -0.1278 }; // London coordinates
@@ -21,7 +22,8 @@ function App() {
          <Menu />
          <About />
          <Collage />
-         <GoogleMap center={center} zoom={zoom} locations={addresses} />
+         <Documents />
+         {/* <GoogleMap center={center} zoom={zoom} locations={addresses} /> */}
       </>
    );
 }
