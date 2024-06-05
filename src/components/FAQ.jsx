@@ -1,7 +1,7 @@
 import React from "react";const FAQ = () => {
    return (
       <div id="faq">
-         <div className="container">
+         <div className="faq-container">
             <div className="faq">
                <h3 id="title">Часто задаваемые вопросы</h3>
                <h3>

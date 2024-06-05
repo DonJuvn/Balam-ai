@@ -9,19 +9,19 @@ import React from "react";const Footer = () => {
                   Call-center +7 707 915 7363
                </p>
                <div className="social">
-                  <a href="">
+                  <a href="mailto:of_balamay@mail.ru">
                      <img
                         src={`${process.env.PUBLIC_URL}/img/mail.png`}
                         alt=""
                      />
                   </a>
-                  <a href="">
+                  <a href="tel:+77079157363">
                      <img
                         src={`${process.env.PUBLIC_URL}/img/telephone.png`}
                         alt=""
                      />
                   </a>
-                  <a href="">
+                  <a href="https://instagram.com/balam_ai?igshid=NmZiMzY2Mjc=">
                      <img
                         src={`${process.env.PUBLIC_URL}/img/instagram.png`}
                         alt=""
