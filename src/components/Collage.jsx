@@ -23,17 +23,25 @@ const Collage = () => {
                   Жанкент 100, <br />
                </span>
                <span>
-                  Алпамыс 10, <br />
+                  <a href="https://www.instagram.com/reel/CwwnGw5MhTU/?igsh=Z3VrZ2VqZXFqeWww">
+                     Алпамыс 10, <br />
+                  </a>
                </span>
                <span>
-                  Токпанова 52, <br />
+                  <a href="https://www.instagram.com/reel/CxC8CVfMXvS/?igsh=MWoxc2U2eHozczN1Mw==">
+                     Токпанова 52, <br />
+                  </a>
                </span>
                <span>
-                  проспект Сарыарка 48/2, <br />
+                  <a href="https://www.instagram.com/reel/C4vul9IrEN3/?igsh=MjNjcGxqYm1reDhi">
+                     проспект Сарыарка 48/2, <br />
+                  </a>
                </span>
                <span>
-                  Бектурова 7.
-                  <br />
+                  <a href="https://www.instagram.com/reel/Cw1ywmiM10P/?igsh=ZTJzNDZwZDI4a2Rm">
+                     Бектурова 7.
+                     <br />
+                  </a>
                </span>
             </h4>
          </div>
