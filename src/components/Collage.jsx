@@ -1,4 +1,5 @@
-import React from "react";const images = [
+import React from "react";
+const images = [
    "img/collage1.jpg",
    "img/collage2.jpg",
    "img/collage3.jpg",
@@ -20,25 +21,27 @@ const Collage = () => {
                время работает 5центров «Балам-ай», услуги оказываются по
                адресам: <br />
                <span>
-                  Жанкент 100, <br />
+                  <a href="https://www.instagram.com/reel/C9MYng4sQ1e">
+                     Жанкент 100, <br />
+                  </a>
                </span>
                <span>
-                  <a href="https://www.instagram.com/reel/CwwnGw5MhTU/?igsh=Z3VrZ2VqZXFqeWww">
+                  <a href="https://www.instagram.com/reel/CwwnGw5MhTU">
                      Алпамыс 10, <br />
                   </a>
                </span>
                <span>
-                  <a href="https://www.instagram.com/reel/CxC8CVfMXvS/?igsh=MWoxc2U2eHozczN1Mw==">
+                  <a href="https://www.instagram.com/reel/C8Zj-8wiK2m">
                      Токпанова 52, <br />
                   </a>
                </span>
                <span>
-                  <a href="https://www.instagram.com/reel/C4vul9IrEN3/?igsh=MjNjcGxqYm1reDhi">
+                  <a href="https://www.instagram.com/reel/Cw1ywmiM10P">
                      проспект Сарыарка 48/2, <br />
                   </a>
                </span>
                <span>
-                  <a href="https://www.instagram.com/reel/Cw1ywmiM10P/?igsh=ZTJzNDZwZDI4a2Rm">
+                  <a href="https://www.instagram.com/reel/CxC8CVfMXvS">
                      Бектурова 7.
                      <br />
                   </a>
