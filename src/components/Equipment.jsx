@@ -1,5 +1,4 @@
-import React from "react";
-const Correction = () => {
+import React from "react";const Correction = () => {
    return (
       <div id="equipment">
          <div className="container">
@@ -186,7 +185,7 @@ const Correction = () => {
                <div className="facility">
                   <div className="img">
                      <img
-                        src={`${process.env.PUBLIC_URL}/img/table.jpg`}
+                        src={`${process.env.PUBLIC_URL}/img/stol.jpg`}
                         alt=""
                      />
                   </div>
