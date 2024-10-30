@@ -16,6 +16,7 @@ import Footer from "./components/Footer";
 import Equipment from "./components/Equipment";
 import FAQ from "./components/FAQ";
 import Photos from "./components/Photos";
+import Correction from "./components/Correction";
 
 function App() {
    //  const center = { lat: 51.5074, lng: -0.1278 }; // London coordinates
@@ -33,8 +34,6 @@ function App() {
          <div>
             <Menu />
             <About2 />
-            <About />
-            <Photos />
             <Routes>
                <Route path="/" exact element={<Main />} />
                <Route path="/correction" element={<CorrectionPage />} />
@@ -65,6 +64,8 @@ const Main = () => {
 
    return (
       <>
+         <About />
+         <Photos />
          <Documents />
          <Carousel slides={slides} />
          {/* <GoogleMap center={center} zoom={zoom} locations={addresses} /> */}
@@ -73,7 +74,7 @@ const Main = () => {
 };
 
 const CorrectionPage = () => {
-   return <>{/* <Correction /> */}</>;
+   return <>{<Correction /> }</>;
 };
 const EquipmentPage = () => {
    return (

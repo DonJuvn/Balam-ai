@@ -41,15 +41,23 @@ body {
 }
 @media screen and (max-width: 768px) {
    .nav {
-      width: 100%;
+      width: 80%;
       flex-wrap: wrap;
       padding: 15px 0;
    }
+   #menu .buttons {
+      width: 100%;
+      flex-wrap: wrap;
+   }
    #menu img {
-      display: none;
+      display: block;
+      width: 150px;
+      margin: auto;
+      margin-bottom: 15px;
    }
    .nav a {
       font-size: 16px;
+      width: fit-content;
       margin: 5px;
    }
 }
@@ -354,7 +362,7 @@ body {
       width: 100%;
       overflow: hidden;
    }
-   .reviews .img img{
+   .reviews .img img {
       width: 100%;
    }
    .slide {
@@ -433,6 +441,9 @@ body {
 }
 
 /* correction */
+#correction {
+   margin-top: 5vh;
+}
 .correction p {
    margin-bottom: 30px;
 }
@@ -444,6 +455,14 @@ body {
 .type {
    padding: 50px 0;
    border-bottom: #1d4784 2px solid;
+}
+.programs {
+   margin-top: 8vh;
+}
+.programs .item {
+   font-size: 36px;
+   border-bottom: 1px solid #c7c7cc;
+   padding: 30px 0;
 }
 
 /* equipment */

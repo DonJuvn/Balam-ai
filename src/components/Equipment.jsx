@@ -1,4 +1,5 @@
-import React from "react";const Correction = () => {
+import React from "react";
+const Equipment = () => {
    return (
       <div id="equipment">
          <div className="container">
@@ -243,4 +244,4 @@ import React from "react";const Correction = () => {
    );
 };
 
-export default Correction;
+export default Equipment;
