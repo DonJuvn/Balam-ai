@@ -133,6 +133,24 @@ body {
       width: 100%;
    }
 }
+
+#title {
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   color: #8e8e93;
+   min-width: 100px;
+   margin-right: 20%;
+}
+#about2 {
+   margin-top: 5vh;
+}
+#about2 .container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
 .subtitles {
    display: flex;
    flex-direction: row;
@@ -176,12 +194,7 @@ body {
 #documents {
    padding: 2% 0;
 }
-#title {
-   font-size: 32px;
-   font-weight: 600;
-   width: 100%;
-   text-align: center;
-}
+
 #subtitle {
    padding: 0 4%;
    font-style: italic;

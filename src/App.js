@@ -7,6 +7,7 @@ import {
    Navigate,
 } from "react-router-dom";
 import Menu from "./components/Menu";
+import About from "./components/About";
 import About2 from "./components/About2";
 // import GoogleMap from "./components/Addresses";
 import Documents from "./components/Documents";
@@ -31,6 +32,7 @@ function App() {
          <div>
             <Menu />
             <About2 />
+            <About />
             <Routes>
                <Route path="/" exact element={<Main />} />
                <Route path="/correction" element={<CorrectionPage />} />
@@ -69,11 +71,7 @@ const Main = () => {
 };
 
 const CorrectionPage = () => {
-   return (
-      <>
-         {/* <Correction /> */}
-      </>
-   );
+   return <>{/* <Correction /> */}</>;
 };
 const EquipmentPage = () => {
    return (
