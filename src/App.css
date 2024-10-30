@@ -17,7 +17,7 @@ body {
    margin: 20px;
    justify-content: space-between;
 }
-.buttons {
+#menu .buttons {
    width: 50%;
    padding: 15px;
    display: flex;
@@ -269,21 +269,50 @@ body {
 #reviews {
    padding-top: 2%;
 }
-#reviews h3 {
-   font-size: 32px;
+.reviews {
+   background-color: #209b47;
+   border-radius: 50px;
+}
+.reviews .container {
+   display: flex;
+   flex-direction: row;
+   overflow: hidden;
+}
+.reviews .img {
+   width: 45%;
+   /* margin-top: auto; */
+   margin-top: 5%;
+}
+.reviews .main {
+   width: 45%;
+   display: flex;
+   flex-direction: column;
+   margin: auto;
+}
+.reviews .main p {
+   font-size: 18px;
+   font-style: normal;
    font-weight: 600;
-   width: 100%;
-   text-align: center;
+   line-height: normal;
+   margin-top: 15%;
+   width: 110%;
+   color: #fff;
 }
 .carousel {
    padding: 30px 0;
    display: flex;
-   flex-direction: row;
-   width: 100%;
+   margin: 15% auto;
+   flex-direction: column;
+   width: 90%;
    justify-content: space-between;
 }
+.reviews .buttons {
+   margin-top: auto;
+   text-align: right;
+   margin-top: 80px;
+}
 #arrows {
-   width: 60px;
+   width: 30px;
    background-color: transparent;
    border: none;
    cursor: pointer;
@@ -296,10 +325,38 @@ body {
    width: 100%;
 }
 .slide {
-   width: 40%;
-   text-align: center;
+   width: 100%;
+   text-align: left;
+   height: 150px;
+}
+#slider {
+   font-size: 12px;
+   font-weight: 400;
 }
 @media screen and (max-width: 768px) {
+   #reviews {
+      margin-top: 2vh;
+   }
+   .reviews .container {
+      flex-direction: column-reverse;
+   }
+   .reviews .main p {
+      font-size: 14px;
+   }
+   .reviews .container .main {
+      width: 85%;
+      margin: auto;
+   }
+   .reviews .carousel {
+      margin-top: 10px;
+   }
+   .reviews .container .img {
+      width: 100%;
+      overflow: hidden;
+   }
+   .reviews .img img{
+      width: 100%;
+   }
    .slide {
       width: 90%;
    }
