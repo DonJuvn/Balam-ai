@@ -7,14 +7,11 @@ import {
    Navigate,
 } from "react-router-dom";
 import Menu from "./components/Menu";
-import About from "./components/About";
-import Center from "./components/Center";
-import Collage from "./components/Collage";
+import About2 from "./components/About2";
 // import GoogleMap from "./components/Addresses";
 import Documents from "./components/Documents";
 import Carousel from "./components/Reviews";
 import Footer from "./components/Footer";
-import Correction from "./components/Correction";
 import Equipment from "./components/Equipment";
 import FAQ from "./components/FAQ";
 
@@ -33,7 +30,7 @@ function App() {
       <Router>
          <div>
             <Menu />
-            <About />
+            <About2 />
             <Routes>
                <Route path="/" exact element={<Main />} />
                <Route path="/correction" element={<CorrectionPage />} />
@@ -64,8 +61,6 @@ const Main = () => {
 
    return (
       <>
-         <Center />
-         <Collage />
          <Documents />
          <Carousel slides={slides} />
          {/* <GoogleMap center={center} zoom={zoom} locations={addresses} /> */}
@@ -76,7 +71,7 @@ const Main = () => {
 const CorrectionPage = () => {
    return (
       <>
-         <Correction />
+         {/* <Correction /> */}
       </>
    );
 };
