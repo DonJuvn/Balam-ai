@@ -44,7 +44,7 @@ body {
    }
 }
 /* ABout */
-#about {
+#center {
    padding-top: 2vh;
    background: linear-gradient(to bottom, #fff, #1d478414);
 }
@@ -68,6 +68,9 @@ body {
    width: 50%;
    padding: 1% 4%;
    align-items: center;
+}
+.about #center-text {
+   width: 100%;
 }
 .about .text h4 {
    font-weight: 500;
@@ -114,6 +117,45 @@ body {
       max-width: 100%;
    }
 }
+.subtitles {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   gap: 10%;
+}
+.levels {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   padding: 0 4%;
+}
+.levels #level {
+   font-size: 16px;
+}
+.levels .level {
+   display: flex;
+   flex-direction: row;
+   gap: 15%;
+   align-items: center;
+   border-bottom: 0.5px solid #2e3b29;
+   border-top: 0.5px solid #2e3b29;
+   padding: 0 0 5%;
+}
+.levels .level .actions {
+   display: flex;
+   flex-direction: column;
+   width: 70%;
+   min-width: 500px;
+}
+.actions p {
+   margin: 0;
+   border-bottom: 0.5px solid #2e3b29;
+}
+.actions #action {
+   font-size: 16px;
+   font-weight: 600;
+   margin: 3% 0;
+}
 /* Documents */
 #documents {
    padding: 2% 0;
@@ -124,6 +166,14 @@ body {
    width: 100%;
    text-align: center;
 }
+#subtitle {
+   padding: 0 4%;
+   font-style: italic;
+   font-weight: 600;
+   font-size: 20px;
+   width: 50%;
+}
+
 .documents {
    display: flex;
    flex-direction: row;

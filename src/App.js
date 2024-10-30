@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Menu from "./components/Menu";
 import About from "./components/About";
+import Center from "./components/Center";
 import Collage from "./components/Collage";
 // import GoogleMap from "./components/Addresses";
 import Documents from "./components/Documents";
@@ -63,6 +64,7 @@ const Main = () => {
 
    return (
       <>
+         <Center />
          <Collage />
          <Documents />
          <Carousel slides={slides} />
