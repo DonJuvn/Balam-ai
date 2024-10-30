@@ -15,6 +15,7 @@ import Carousel from "./components/Reviews";
 import Footer from "./components/Footer";
 import Equipment from "./components/Equipment";
 import FAQ from "./components/FAQ";
+import Photos from "./components/Photos";
 
 function App() {
    //  const center = { lat: 51.5074, lng: -0.1278 }; // London coordinates
@@ -33,6 +34,7 @@ function App() {
             <Menu />
             <About2 />
             <About />
+            <Photos />
             <Routes>
                <Route path="/" exact element={<Main />} />
                <Route path="/correction" element={<CorrectionPage />} />
