@@ -10,23 +10,35 @@ const About2 = () => {
                      детей-инвалидов "Балам-ай"
                   </h1>
                   <div className="adresses">
-                     <p>В данное время работает 5центров «Балам-ай», услуги оказываются
-                     по адресам:</p>
+                     <p>
+                        В данное время работает 5центров «Балам-ай», услуги
+                        оказываются по адресам:
+                     </p>
                      <div className="items">
                         <div className="item">
-                           <a href="#">Жанкент 100</a>
+                           <a href="https://www.instagram.com/reel/C9MYng4sQ1e/?igsh=NzAxeWVjcGV0bWxh">
+                              Жанкент 100
+                           </a>
                         </div>
                         <div className="item">
-                           <a href="#">Токпанова 52</a>
+                           <a href="https://www.instagram.com/reel/CxC8CVfMXvS/?igsh=MWoxc2U2eHozczN1Mw==">
+                              Токпанова 52
+                           </a>
                         </div>
                         <div className="item">
-                           <a href="#">Бектурова 7</a>
+                           <a href="https://www.instagram.com/reel/Cw1ywmiM10P/?igsh=ZTJzNDZwZDI4a2Rm">
+                              Бектурова 7
+                           </a>
                         </div>
                         <div className="item">
-                           <a href="#">Алпамыс 10</a>
+                           <a href="https://www.instagram.com/reel/CwwnGw5MhTU/?igsh=Z3VrZ2VqZXFqeWww">
+                              Алпамыс 10
+                           </a>
                         </div>
                         <div className="item">
-                           <a href="#">проспект Сарыарка 48/2</a>
+                           <a href="https://www.instagram.com/reel/C4vul9IrEN3/?igsh=MjNjcGxqYm1reDhi">
+                              проспект Сарыарка 48/2
+                           </a>
                         </div>
                      </div>
                   </div>
