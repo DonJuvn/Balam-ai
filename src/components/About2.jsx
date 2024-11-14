@@ -1,5 +1,4 @@
-import React from "react";
-const About2 = () => {
+import React from "react";const About2 = () => {
    return (
       <div id="about">
          <div className="container">
@@ -38,6 +37,11 @@ const About2 = () => {
                         <div className="item">
                            <a href="https://www.instagram.com/reel/C4vul9IrEN3/?igsh=MjNjcGxqYm1reDhi">
                               проспект Сарыарка 48/2
+                           </a>
+                        </div>
+                        <div className="item">
+                           <a href="https://www.instagram.com/reel/C-AIreVsu_E/?igsh=MXcwOW56cWp3dWg4cQ==">
+                              Е-103,7
                            </a>
                         </div>
                      </div>
