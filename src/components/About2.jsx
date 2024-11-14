@@ -10,7 +10,7 @@ import React from "react";const About2 = () => {
                   </h1>
                   <div className="adresses">
                      <p>
-                        В данное время работает 5центров «Балам-ай», услуги
+                        В данное время работает 6 центров «Балам-ай», услуги
                         оказываются по адресам:
                      </p>
                      <div className="items">

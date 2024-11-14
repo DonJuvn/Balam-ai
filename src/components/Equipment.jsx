@@ -1,4 +1,5 @@
-import React from "react";const Equipment = () => {
+import React from "react";
+const Equipment = () => {
    return (
       <div id="equipment">
          <div className="container">
@@ -259,6 +260,59 @@ import React from "react";const Equipment = () => {
                         которые сложно раскрыть с помощью прочих методик.
                      </p>
                      <a href="https://drive.google.com/file/d/1kSVTbDdJe0c6LOkF1e-EPq3x_Te84jQy/view">
+                        Подробнее
+                     </a>
+                  </div>
+               </div>
+               <div className="facility">
+                  <div className="container">
+                     <div className="img">
+                        <img
+                           src={`${process.env.PUBLIC_URL}/img/интерактив.jpg`}
+                           alt=""
+                        />
+                     </div>
+                     <h5>Настенный интерактив</h5>
+                     <p>
+                        Настенные интерактивы – это отличное средство для
+                        развития детей. Они представляют собой специальные
+                        панели, доски или интерактивные стены, на которых дети
+                        могут рисовать, писать, решать головоломки или играть в
+                        развивающие игры. Вот несколько ключевых преимуществ
+                        настенного интерактива для детского развития: 1.
+                        Стимуляция сенсорного восприятия. Дети учатся различать
+                        текстуры, формы, цвета и звуки, что улучшает их
+                        сенсорные навыки. Мультимедийные элементы (свет, звук)
+                        делают процесс изучения ярким и запоминающимся.
+                     </p>
+                     <a href="https://drive.google.com/file/d/1nW0PoiYA-TZj_vEAyglrV-icF1ADme5j/view?usp=drivesdk">
+                        Подробнее
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div className="equipment">
+               <div className="facility">
+                  <div className="container">
+                     <div className="img">
+                        <img
+                           src={`${process.env.PUBLIC_URL}/img/скалодром.webp`}
+                           alt=""
+                        />
+                     </div>
+                     <h5>Скалодром</h5>
+                     <p>
+                        Скалодромы – это не только захватывающее развлечение для
+                        детей, но и эффективный способ способствовать их
+                        физическому, умственному и эмоциональному развитию. Вот
+                        несколько важных преимуществ скалодрома для детей: 1.
+                        Развитие силы и координации. Скалолазание требует работы
+                        всех мышц тела, особенно мышц рук, ног и корпуса. Это
+                        помогает укреплять мускулатуру и улучшать координацию
+                        движений. Постоянные перемещения по стене развивают
+                        баланс и учат детей управлять своим телом.
+                     </p>
+                     <a href="https://drive.google.com/file/d/1f7yw1q57adzkq0E3sUS6ComJsY6RTyBY/view?usp=drivesdk">
                         Подробнее
                      </a>
                   </div>
